@@ -54,9 +54,9 @@ public:
 			{
 				return false;
 			}
-
-			return true;
 		}
+
+		return true;
 	}
 
 	bool operator!=(const myVector& other)
@@ -71,6 +71,7 @@ public:
 				return true;
 			}
 		}
+		
 		return false;
 	}
 
@@ -127,9 +128,9 @@ public:
 			{
 				return false;
 			}
-
-			return true;
 		}
+
+		return true;
 	}
 
 	void print()
